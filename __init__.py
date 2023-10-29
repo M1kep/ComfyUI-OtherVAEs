@@ -1,4 +1,4 @@
-from custom_nodes.Comfy_OtherVAEs.nodes import TAESDVaeDecode
+from .nodes import TAESDVaeDecode
 
 NODE_CLASS_MAPPINGS = {
     "OtherVAE_Taesd": TAESDVaeDecode,
